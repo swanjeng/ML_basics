@@ -7,9 +7,8 @@ colors = ['r', 'g', 'b']
 def dis(x1, y1, x2, y2):
     return ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 
+
 # generate random dataset
-
-
 x1 = [random.randint(0, 20) for _ in range(20)]
 y1 = [random.randint(0, 20) for _ in range(20)]
 
